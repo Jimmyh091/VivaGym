@@ -5,6 +5,17 @@ img{
     width: 80%;
     margin: auto;
 }
-.divAgrupador > img{
+#divAgrupador > img{
     width: 49%;
+}
+#divMaquinaria div{ /* podria hacer esto con bootstrap pero de esta manera es mucho mejor */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+#divMaquinaria > div > div{
+    justify-content: end;
+}
+#divMaquinaria img{
+    margin-top: 20px;
 }
