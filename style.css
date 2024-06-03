@@ -1,4 +1,4 @@
-#carruselExample{
-    border-radius: 25px;
-    overflow: hidden;
+.ancho{
+    width: 80%;
+    margin: auto;
 }

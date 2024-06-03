@@ -28,15 +28,18 @@
         </div>
     </header>
     <main>
-        <section>
+        <section class="mb-5 ancho">
             <div class="container">
-                <div class="m-5 carousel slide" id="carouselExample" data-bs-ride="carousel">
+                <div class="mt-5 carousel slide">
                     <div class="carousel-inner">
                         <div class="carousel-item active">
-                            <img src="https://picsum.photos/1468/800" alt="">
+                            <img src="../img/carrusel-1.png" alt="">
                         </div>
                         <div class="carousel-item">
-                            <img src="https://picsum.photos/1468/800" alt="">
+                            <img src="../img/carrusel-2.png" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="../img/carrusel-3.png" alt="">
                         </div>
                     </div>
                     <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
@@ -50,26 +53,32 @@
                 </div>
             </div>                                 
         </section>
-        <section>
-            <div class="d-flex justify-content-evenly">
-                <div class="card" style="width: 18rem;">
-                    <img src="../img/IMG-20161224-WA0003.jpg" class="card-img-top" alt="...">
+        <section class="bg-warning mt-5 text-white">
+            <div class="ancho p-5">
+                <h2 class="pb-3">Únete a VivaGym</h2>
+                <p class="fs-5">Nuestro gimnasio ofrece la mayor calidad de servicio, maquinaria y entrenadores en comparación al precio. La mejor opción que puedas elegir. Disfrutarás si nos das la oportunidad.</p>
+            </div>            
+        </section>
+        <section class="mt-5 mb-5 ancho">
+            <div class="d-flex justify-content-between container w-80 row ">
+                <div class="card col-3">
+                    <img src="../img/maquinas.jpeg" class="card-img-top" alt="">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="../img/IMG-20161224-WA0003.jpg" class="card-img-top" alt="...">
+                <div class="card col-3">
+                    <img src="../img/IMG-20161224-WA0003.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
                       <a href="#" class="btn btn-primary">Go somewhere</a>
                     </div>
                 </div>
-                <div class="card" style="width: 18rem;">
-                    <img src="../img/IMG-20161224-WA0003.jpg" class="card-img-top" alt="...">
+                <div class="card col-3">
+                    <img src="../img/IMG-20161224-WA0003.jpg" class="card-img-top" alt="">
                     <div class="card-body">
                       <h5 class="card-title">Card title</h5>
                       <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
@@ -79,8 +88,15 @@
             </div>            
         </section>
     </main>
-    <footer>
-
+    <footer class="bg-dark py-3 text-secondary">
+        <ul class="nav justify-content-center border-bottom pb-3 mb-3">
+            <li class="nav-item"><a href="#" class="nav-link px-2">Home</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">Features</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">Pricing</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">FAQs</a></li>
+            <li class="nav-item"><a href="#" class="nav-link px-2">About</a></li>
+        </ul>
+        <p class="text-center">© 2022 Company, Inc</p>
     </footer>
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js" integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r" crossorigin="anonymous"></script>
