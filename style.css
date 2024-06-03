@@ -10,12 +10,16 @@ img{
 }
 #divMaquinaria div{ /* podria hacer esto con bootstrap pero de esta manera es mucho mejor */
     display: flex;
-    flex-direction: column;
     justify-content: space-between;
+    margin-top: 20px;
+    margin-bottom: 20px;
 }
 #divMaquinaria > div > div{
-    justify-content: end;
+    justify-content: center;
+    flex-direction: column;
 }
 #divMaquinaria img{
     margin-top: 20px;
+    width: 45%;
+    margin-right: 20px;
 }
