@@ -1,4 +1,10 @@
+img{
+    max-width: 100%;
+}
 .ancho{
     width: 80%;
     margin: auto;
+}
+.divAgrupador > img{
+    width: 49%;
 }
